@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="TifTafTofFS.fs" />
+    <Compile Include="MenuFs.fs" />
+    <Compile Include="PlayFs.fs" />
+    <Compile Include="GameOverFs.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GodotSharp">
+      <HintPath>.mono/assemblies/Debug/GodotSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

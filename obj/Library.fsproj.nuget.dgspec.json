@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/henry/games/TifTafTof/Library.fsproj": {}
+  },
+  "projects": {
+    "/home/henry/games/TifTafTof/Library.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/henry/games/TifTafTof/Library.fsproj",
+        "projectName": "Library",
+        "projectPath": "/home/henry/games/TifTafTof/Library.fsproj",
+        "packagesPath": "/home/henry/.nuget/packages/",
+        "outputPath": "/home/henry/games/TifTafTof/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/henry/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true,
+              "generatePathProperty": true
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.109/sdk/6.0.109/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

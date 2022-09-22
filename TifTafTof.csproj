@@ -1,0 +1,8 @@
+<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <ItemGroup>
+    <ProjectReference Include="TifTafTofFS.fsproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+</Project>
