@@ -4,5 +4,5 @@ using Godot;
 public class Menu : MenuFs
 {
     [Signal]
-    public delegate void Completed();
+    public delegate void Next(string sceneFile);
 }

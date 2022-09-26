@@ -6,9 +6,13 @@ type GameOverFs() =
     inherit Node2D()
 
     member this._OnPressed() =
-        this.EmitSignal("Completed")
+        this.EmitSignal("Next", "res://Menu.tscn")
 
 
     override this._Ready() =
-        this.GetNode("Button").Connect("pressed", this, nameof this._OnPressed) |> ignore
+        this
+            .GetNode("Button")
+            .Connect("pressed", this, nameof this._OnPressed)
+        |> ignore
+
         ()

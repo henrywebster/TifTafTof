@@ -4,5 +4,5 @@ using Godot;
 public class GameOver : GameOverFs
 {
     [Signal]
-    public delegate void Completed();
+    public delegate void Next(string sceneFile);
 }
